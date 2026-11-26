@@ -71,6 +71,22 @@ Stops users from clicking the button. Default: off.
 
 </dd>
 
+#### Confirm before click `boolean`
+
+<dd>
+
+Asks users to confirm before the **onClick** event runs. Useful for actions that delete or change data. Default: off.
+
+</dd>
+
+#### Confirmation message `string`
+
+<dd>
+
+The message shown in the confirmation. Default: `Are you sure you want to continue?`. Shown only when **Confirm before click** is on.
+
+</dd>
+
 #### Animate loading `boolean`
 
 <dd>
